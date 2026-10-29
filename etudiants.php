@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste des Etudiants</title>
+    <title>Liste des Étudiants</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <H1>Liste des étudiants</H1>
+    <?php include_once "navigation.php" ?>
+
+    <h1>Liste des étudiants</h1>
 
     <?php 
-        $etudiants = [["nom" => "ANANI", "prenom"=>"Mawouéyram"],
-        ["nom" =>"ABIBI", "prenom" => "Mohamed"],
-        ["nom" => "ATSOU", "prenom" => "Asma"]
+        $etudiants = [
+            ["nom" => "ANANI", "prenom" => "Mawouéyram"],
+            ["nom" => "ABIBI", "prenom" => "Mohamed"],
+            ["nom" => "ATSOU", "prenom" => "Asma"]
         ];
     ?>
 
