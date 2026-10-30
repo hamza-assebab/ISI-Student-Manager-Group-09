@@ -7,6 +7,20 @@
 > - Mohamed EL FARNANE
 > - Zidane ZIDANI  
 
+## Table des matières
+- [Scénario et Organisation](#scénario-et-organisation)
+- [Exercice 1 : Installation et configuration](#exercice-1--installation-et-configuration)
+- [Exercice 2 : Création du dépôt commun](#exercice-2--création-du-dépôt-commun)
+- [Exercice 3 : Clonage et premier commit](#exercice-3--clonage-et-premier-commit)
+- [Exercice 4 : Commit initial](#exercice-4--commit-initial)
+- [Exercice 5 : Branches individuelles](#exercice-5--branches-individuelles)
+- [Exercice 6 : Développement en parallèle](#exercice-6--développement-en-parallèle)
+- [Exercice 7 : Pull Requests et revue de code](#exercice-7--pull-requests-et-revue-de-code)
+- [Exercice 8 : Conflit de fusion contrôlé](#exercice-8--conflit-de-fusion-contrôlé)
+- [Exercice 9 : Vérification et livrables](#exercice-9--vérification-et-livrables)
+
+---
+
 ## Scénario et Organisation  
 > ***Étudiant A :*** Hamza ASSEBAB  
 > ***Étudiant B :*** Mawouéyram ANANI  
@@ -16,6 +30,9 @@
 
 ## Exercice 1 : Installation et configuration
 ### 1.1 Vérifier que Git est installé
+### 1.2 Configurer le nom et l’adresse e-mail de l’auteur des commits
+### 1.3 Afficher les paramètres et expliquer le rôle de user.name et user.email.
+
 #### Hamza ASSEBAB
 <img src="screenshots/exercice01/hamza.png" width="500">
 
@@ -217,9 +234,6 @@ Une Pull Request (PR) est une demande d'intégration qui agit comme une couche d
 <img src="screenshots/exercice09/commits-graph.png" width="500">
 
 ### 9.2 Vérifier que main est à jour et que l’application fonctionne
-#### La branche main est à jour
-<img src="screenshots/exercice09/main-up-to-date.png" width="500">
-
 #### Page d'accueil
 <img src="screenshots/exercice09/home.png" width="500">
 
