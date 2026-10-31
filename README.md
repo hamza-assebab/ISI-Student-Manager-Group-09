@@ -31,8 +31,7 @@
 ## Exercice 1 : Installation et configuration
 ### 1.1 Vérifier que Git est installé
 ### 1.2 Configurer le nom et l’adresse e-mail de l’auteur des commits
-### 1.3 Afficher les paramètres et expliquer le rôle de user.name et user.email.
-
+### 1.3 Afficher les paramètres
 #### Hamza ASSEBAB
 <img src="screenshots/exercice01/hamza.png" width="500">
 
@@ -44,6 +43,13 @@
 
 #### Zidane ZIDANI
 <img src="screenshots/exercice01/zidane.jpeg" width="500">
+
+### 1.3 Expliquer le rôle de user.name et user.email:
+Les paramètres **`user.name`** et **`user.email`** servent à identifier l'auteur de chaque modification enregistrée dans l'historique de votre projet.
+
+Ces informations sont attachées de manière permanente à chacun de vos commits, ce qui permet à vos collaborateurs de savoir exactement qui a écrit quelle ligne de code.
+
+De plus, les plateformes distantes (comme GitHub ou GitLab) utilisent principalement l'adresse **`user.email`** pour lier automatiquement vos contributions locales à votre compte utilisateur en ligne.
 
 
 ## Exercice 2 : Création du dépôt commun
@@ -234,6 +240,9 @@ Une Pull Request (PR) est une demande d'intégration qui agit comme une couche d
 <img src="screenshots/exercice09/commits-graph.png" width="500">
 
 ### 9.2 Vérifier que main est à jour et que l’application fonctionne
+### Branche main à jour
+<img src="screenshots/exercice09/main-up-to-date.png" width="500">
+
 #### Page d'accueil
 <img src="screenshots/exercice09/home.png" width="500">
 
